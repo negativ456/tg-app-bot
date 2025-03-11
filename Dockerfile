@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Копируем файлы приложения
-COPY . .
+COPY tg-app-bot-master .
 
 # Указываем порт приложения
 EXPOSE 3000
