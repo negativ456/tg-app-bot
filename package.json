@@ -2,9 +2,9 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "description": "Intelinvest Tg App",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
