@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Intelinvest Tg App",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "axios": "^1.7.9",
+    "socks-proxy-agent": "^8.0.5"
+  },
+  "author": "@black",
+  "license": "MIT"
+}
